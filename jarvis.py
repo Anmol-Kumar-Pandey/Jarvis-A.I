@@ -1,9 +1,9 @@
 # Imports of modules
 
-import pyttsx3
+import pyttsx3 # pip install pyttsx3
 import speech_recognition as sr
 import datetime
-import wikipedia
+import wikipedia # pip install wikipedia
 import webbrowser
 import os
 
@@ -122,7 +122,7 @@ if __name__ == "__main__":
         # Opening an app
 
         elif 'open code' in query:
-            code_path = '"C:\\Users\\anmol\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"'
+            code_path = '"C:\\Users\\anmol\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"' # Convert the path as per your computer
             os.startfile(code_path)
 
         elif 'open powershell' in query:
@@ -132,13 +132,13 @@ if __name__ == "__main__":
         # Communication with Jarvais
 
         elif 'who are you' in query:
-            speak("I am Jarvais. An virtual assistant of Anmol Kumar Pandey.")
+            speak("I am Jarvais. An virtual assistant created by Anmol Kumar Pandey.")
 
         elif 'quit' in query:
             speak("Thankyou sir for leting me help you.")
             break
 
     print("""Thankyou!!!
-             © 2020-21 Microsoft
+             © 2020-21
     """)
 
