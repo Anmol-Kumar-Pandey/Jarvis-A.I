@@ -6,6 +6,8 @@ me alot to automate my work flow.
 This A.I is written in Python.
 
 # One more thing !!!
-This Jarvis is not like the one
-created by Iron Man. So it can't 
-help you develop an armor.
+The suggestions are accepted for this 
+project kindly help me make it more better,
+to make it able to do more task rather than
+doing tasks only in my desktop
+## BUT FOR NOW ENJOY THIS POWERFULL DESKTOP-ASSISTANT
